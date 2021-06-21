@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/blackduck-scan-task.iml" filepath="$PROJECT_DIR$/blackduck-scan-task.iml" />
       <module fileurl="file://$PROJECT_DIR$/inspect-task.iml" filepath="$PROJECT_DIR$/inspect-task.iml" />
     </modules>
   </component>
