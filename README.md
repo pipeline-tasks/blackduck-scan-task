@@ -1,1 +1,1 @@
-# blackduck-scan-task
+# inspect-task
