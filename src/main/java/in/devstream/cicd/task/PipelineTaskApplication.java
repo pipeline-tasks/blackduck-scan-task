@@ -7,7 +7,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @Slf4j
-@SpringBootApplication
+@SpringBootApplication()
 public class PipelineTaskApplication implements ApplicationRunner {
 
     public static void main(String[] args) {
@@ -23,6 +23,6 @@ public class PipelineTaskApplication implements ApplicationRunner {
             log.info(optionName + "=" + args.getOptionValues(optionName));
         });
 
-        new BlackduckScanTask(args).run();
+        new BlackduckScanTask(args).run(args);
     }
 }
